@@ -7,6 +7,7 @@
 ##### Hola mundo
 ###### Hola mundo
 
+---
 <!-- Formatos de texto -->
 
 *Italic*
@@ -15,6 +16,7 @@
 
 ~~Tachado~~
 
+---
 <!-- Listas desordenadas -->
 
 * list
@@ -31,12 +33,14 @@
 2. list
 3. list
 
+---
 <!-- Enlaces -->
 
 [Google](http://www.google.com)
 
 [Google](http://www.google.com "Título personalizado")
 
+---
 <!-- Citas -->
 
 > Menciono una cita
@@ -64,6 +68,7 @@ ___
 
 ```
 
+---
 <!-- Tablas -->
 
 | Nombre    | Sexo      | Edad      |
@@ -72,10 +77,20 @@ ___
 | f2c1      | f2c2      | f2c3      |
 | f3c1      | f3c2      | f3c3      |
 
+nombre | edad | sexo
+--- | --- | ---
+diego | 16 | masculino
+juan | 17 | masculino
+noelia | 41 | femenino
+adriana | 42 | femenino
+
+---
 <!-- Imágenes -->
 
 ![visual studio code logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png "Logo de vsc")
 
+
+---
 <!-- GitHub markdown (Solo se ve en GitHub) -->
 
 * [x] Tarea 1
